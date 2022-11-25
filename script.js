@@ -16,7 +16,6 @@ var result = result1.filter(function (o1) {
    });
 });
 
-
-
+const parentItem = 'admin';
 
 result.splice(result.findIndex(item => item.type === parentItem), 1)
